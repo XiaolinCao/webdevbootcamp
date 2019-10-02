@@ -3,7 +3,7 @@ body {
 }
 
 #landing-header {
-  z-index: 1;
+  z-index: 1; 
   position: relative;
   text-align: center;
   padding-top: 40vh;
@@ -74,4 +74,9 @@ body {
   30% {
     opacity: 0
   }
+}
+
+/* Older browser support - .no-cssanimations class added by modernizr */
+.no-cssanimations .slideshow li {
+	opacity: 1;
 }
